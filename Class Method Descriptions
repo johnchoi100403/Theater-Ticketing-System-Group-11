@@ -1,0 +1,79 @@
+Theater:
+private:
+string name
+string location
+long int phone
+int totalCapacity
+pair<int,int> openingTime
+pair<int,int> closingTime
+
+public:
+getMovieList returns List
+getShowTimes returns pair from a List
+reserveSeat is void
+cancelOrder is void
+
+Order:
+private: long int orderID
+Showing showing
+int showingDate
+pair<int,int> showingTime
+Customer customer
+int ticketID
+double totalCost
+
+public:
+calculateTotal returns totalCost
+discountCode returns boolean for confirmation
+orderConfirmation returns boolean for confirmation
+
+Customer:
+private:
+string name
+string email
+long int phoneNumber
+
+Movie
+private:
+string movieTitle
+pair<int,int> movieDuration
+string description
+double criticRating
+
+public:
+getMovieInfo returns formatted information given in variables
+getAvailability searches for movie in showing list
+
+Ticket:
+private:
+boolean ticketAvailability
+long int ticketID
+double ticketCost
+string movie
+string seat
+
+public:
+isTicketValid returns ticketAvailability
+soldOut returns void
+
+Showing:
+private:
+int date
+pair<int, int> time
+movie Movie
+
+Seating:
+private:
+char rowLetter
+int seatNumber
+string seatType
+
+Payment:
+private:
+long int paymentID
+double totalCost
+boolean paymentStatus
+
+public:
+getStatus returns paymentStatus
+
