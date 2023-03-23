@@ -1,0 +1,52 @@
+﻿Movie Theatre Ticketing Timeline
+
+
+Team Members:
+ Andrew, William, Gabe, John
+
+
+Project Description:
+
+
+Description:  
+Our theater ticketing system software is designed to automate the process of selling tickets for movies. It includes features such as seat reservations, pricing options, payment processing, and the ability to generate electronic tickets for customers.  In addition to this, the software provides movie descriptions, ratings, and availability, along with other details for customers to see when browsing for their particular showing. The system will save customers name, email and phone number as a primary way for them to log back on to the system.
+
+
+Code
+
+
+Theater Class: Andrew 
+Movie Class: John
+Ticket Class: William 
+Order Class: Gabe
+Showing & Seating Class: Andrew and William
+Customer Class: Gabe and John
+Payment Class: John
+
+
+Misc. Tasks
+
+
+Arithmetic Logic Planning: John and William
+Abstract Logic Planning: Andrew Gabe
+Quality Checking: John
+Logic Checking: John
+Graphics: Gabe and William
+
+
+Prototype goal: March 20th
+
+
+Testing
+
+
+Theater Class Testing: Andrew 
+Movie Class Testing: John
+Ticket Class Testing: William 
+Order Class Testing: Gabe
+Showing & Seating Testing: Class: Andrew and William
+Customer Class Testing: Gabe and John
+Payment Class Testing: John
+
+
+Testing finish goal: a week before project due date
